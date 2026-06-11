@@ -1,10 +1,16 @@
+h3 {
+    
+    color: rgb(255, 255, 255);
+    
+}
+h2 {
+    color: white;
+}
 h1 {
-    color: rgb(0, 0, 73);
-    font-size: 40px;
-    background: linear-gradient(135deg, var(--lightblue), var(--blue));
+    color: rgb(12, 118, 255);
 }
 p {
-    color:rgb(0, 48, 66);
+    color:rgb(255, 255, 255);
 }
 p,
 li {
@@ -12,7 +18,7 @@ li {
     line-height: 1.6;
 }
 body {
-    background-color: antiquewhite;
+    background-color: rgb(0, 1, 37);
 }
 section {
     background-color: grey;
@@ -24,19 +30,16 @@ body {
 p {
     line-height: 5;
 }
-h1 {
-    letter-spacing: 6px;
+
+p {
+    text-align: left;
 }
-h1 {
-    text-align: center;
-}
-h1 {
-    font-size: 90px;
+p {
  border-top: 6px solid var(--red);
 }
 .card{
     color:rgb(0, 1, 68);
-    background-color: rgb(255, 234, 164);
+    background-color: rgb(21, 0, 97);
     margin: 10px auto;
     border: 0.67px groove rgb(53, 53, 53);
     max-width: 1000px;
@@ -56,3 +59,92 @@ header {
     border-top: 6px solid var(--red);
     background: linear-gradient(135deg, var(--lightblue), var(--blue));
 }
+button {
+  
+   background-color: lightblue;
+    border-radius: 8px;
+    padding: 5px
+};
+main section {
+    transition: 1s;
+};
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+img {
+    transition: 0.3;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+section {
+    transition: 0.3;
+}
+
+section:hover {
+    transform: scale(1.05);
+}
+main section {
+    transition: 0.3;
+    animation: fadeIn 1s ease;
+}
+
+main section:hover {
+    transform: scale(1.02);
+}
+button {
+    transition: 0.3;
+}
+button:hover {
+    transform: scale(1.05);
+}
+@keyframes fadeIn {
+    from {
+        opacity:0;
+        transform: translateY(15px);
+    }
+    to { 
+        opacity: 1;
+        transform: translateY(0);
+  }
+}
+@media (max-width: 700px): {
+    header{
+        padding: 40px 16px;
+    }
+
+    nav a {
+        display: block;
+    }
+    main section {
+        padding: 20px;
+    }
+
+        button,
+        button[type="reset"] {
+            width: 100%;
+            margin-top: 10px;
+            margin-left: 0;
+        }
+    }
+    h1 {
+        text-align: center;
+        
+    }
+    h2 {
+        text-align: center;
+    }
+    h1 {
+       max-width: 3000px;
+       font-size: 70px;
+    }
+    h2 {
+        max-width: 3000px;
+        font-size: 70px;
+    }
