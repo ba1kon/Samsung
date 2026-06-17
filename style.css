@@ -1,58 +1,30 @@
-h3 {
-  padding: 35px;
-    font-size: 50px;
-    color: rgb(12, 118, 255);
-    text-shadow:  0 0 10px #6b0096,
-                0 0 30px #420079, 
-                0 0 60px #28004e;;
-    
-}
-h2 {
-    color: white;
-    text-shadow: 0 0 15px #5e00da;
-}
-h1 {
-    color: rgb(12, 118, 255);
-     text-shadow: 0 0 15px #5e00da;
-}
+
+
+
 p {
     color:rgb(255, 255, 255);
     text-shadow: 0 0 10px #6b0096,
                 0 0 30px #420079, 
                 0 0 60px #28004e;
     line-height: 3;
+    padding: 10px;
+    text-align: center;
+    border-top: 6px solid 
 }
 
 li {
     font-size: 18px;
     line-height: 5;
 }
-body {
-    background-color: rgb(0, 1, 37);
-}
-section {
-    background-color: rgb(0, 3, 53);
-    border-radius: 8px;
-    margin: 30px auto;
-    padding: 20px;
-    box-shadow: 0 0 10px #6b0096,
-                0 0 30px #420079, 
-                0 0 60px #28004e;;
-    
-}
+
+
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     background-color: rgb(0, 1, 37);
 }
 
 
 
-p {
-    padding: 10px;
-    text-align: center;
-}
-p {
- border-top: 6px solid 
-}
 .card{
     color:rgb(0, 1, 68);
     background-color: rgb(0, 3, 53);
@@ -70,12 +42,7 @@ th {
     background-color: rgba(255, 2, 2, 0.507);
     border-radius: 5px;
 }
-img {
-    display: block;
-    margin: 16px auto 22px;
-    border-radius: 24px;
-    border: 4px ridge rgba(149, 113, 207, 0.92); 
-}
+
 header {
     border-top: 6px solid var(--red);
     background: linear-gradient(135deg, var(--lightblue), var(--blue));
@@ -98,6 +65,10 @@ main section {
     }
 }
 img {
+    display: block;
+    margin: 16px auto 22px;
+    border-radius: 24px;
+    border: 4px ridge rgba(149, 113, 207, 0.92); 
     transition: 0.3;
 }
 
@@ -105,6 +76,13 @@ img:hover {
     transform: scale(1.05);
 }
 section {
+    background-color: rgb(0, 3, 53);
+    border-radius: 8px;
+    margin: 30px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px #6b0096,
+                0 0 30px #420079, 
+                0 0 60px #28004e;;
     transition: 0.3;
 }
 
@@ -154,22 +132,22 @@ button:hover {
             margin-left: 0;
         }
     }
+   
     h1 {
-        text-align: center;
-        
-    }
-    h2 {
-        text-align: center;
-    }
-    h1 {
+         text-align: center;
        animation: fadeIn 1s ease;
        max-width: 3000px;
        font-size: 70px;
+        color: rgb(12, 118, 255);
+     text-shadow: 0 0 15px #5e00da;
     }
     h2 {
+         text-align: center;
         animation: fadeIn 1s ease;
         max-width: 3000px;
         font-size: 70px;
+         color: white;
+    text-shadow: 0 0 15px #5e00da;
     }
     button {
         display: block;
@@ -179,6 +157,18 @@ button:hover {
                 0 0 60px #28004e;
                   
     }
+
+    h3 {
+  padding: 35px;
+    font-size: 50px;
+    color: rgb(12, 118, 255);
+    text-shadow:  0 0 10px #6b0096,
+                0 0 30px #420079, 
+                0 0 60px #28004e;;
+    
+}
+
+
     button:hover {
    transform: r;
     }
@@ -195,17 +185,10 @@ button:hover {
                      0 0 30px #420079, 
                      0 0 60px #28004e;
         font-size: 25px;
-                  
+          padding: 10px; 
+           line-height: 2;        
     }
-    input {
-        padding: 95px;
-        border-radius: 8px;
-        font-size: 15px;
-    }
-    textarea {
-        border-radius: 8px;
-        font-size: 15px;
-    }
+   
     .title {
         background-image: linear-gradient(rgba(80, 2, 126, 0.185), rgba(0, 0, 0, 0.5)), url(samsung.avif);
         background-repeat: no-repeat;
@@ -236,18 +219,22 @@ button:hover {
                 0 0 60px #28004e;
     }
     input {
-        justify-content: right;
-        
-          color:rgb(0, 1, 68);
+    justify-content: right;
+    height: 40px;
+    color:rgb(255, 255, 255);
     background-color: rgb(0, 3, 53);
     margin: 30px auto;
+    margin-left: 50px;
     border: 0.67px groove rgb(53, 53, 53);
-    max-width: 50%;
-    border-radius: 30px;
-    padding: 20px;
+    max-width: 100%;
+    max-height: 80%;
+    
     box-shadow: 0 0 10px #6b0096,
                 0 0 30px #420079, 
-                0 0 60px #28004e;  
+                0 0 60px #28004e; 
+    padding: 5px;
+    border-radius: 8px;
+    font-size: 15px; 
 
     }
 textarea {
@@ -256,18 +243,29 @@ color:rgb(0, 1, 68);
     background-color: rgb(0, 3, 53);
     margin: 30px auto;
     border: 0.67px groove rgb(53, 53, 53);
-    max-width: 60%;
+    max-width: 40%;
     border-radius: 30px;
     padding: 20px;
     box-shadow: 0 0 10px #6b0096,
                 0 0 30px #420079, 
                 0 0 60px #28004e;
 }
-h4 {
-    padding: 10px;
-    color:rgb(255, 255, 255);
+
+h5 {
+    font-size: 25px;
+   color:rgb(161, 228, 255);
     text-shadow: 0 0 10px #6b0096,
                 0 0 30px #420079, 
                 0 0 60px #28004e;
-    line-height: 2;
+    line-height: 3;
+    padding: 10px;
+    text-align: center;
+    border-top: 6px solid  
+}
+label{
+    color:rgb(255, 255, 255);
+    font-size: 25px;
+    text-shadow: 0 0 10px #6b0096,
+    0 0 30px #420079, 
+    0 0 60px #28004e;
 }
