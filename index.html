@@ -1,42 +1,59 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Samsung</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
+
+<head>
+    <title>Samsung</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
     <header>
         <section class="title" id="about">
-            <h6>Samsung</h6>
+
         </section>
-            <hr>
-            <h2>INSPIRE</h2>
-            <h1>THE WORLD</h1>
+        <hr>
+        <h2>INSPIRE</h2>
+        <h1>THE WORLD</h1>
         <nav>
-            <a href="index.html">Главное</a>
-            <a href="Samsung Galaxy.html">Линейка Galaxy</a>
+            <a class="index" id="index-html" href="index.html">Главное</a>
+            <a class="galaxy" id="galaxy-html" href="Samsung Galaxy.html">Линейка Galaxy</a>
         </nav>
     </header>
     <main>
-        
-            
-            <h4>О КОМПАНИИ</h4>
-            <h3> История и достижения</h3>
- <p>
-Samsung Electronics была основана в 1969 году как подразделение конгломерата Samsung Group. 
-Компания начала с производства чёрно-белых телевизоров и за десятилетия превратилась в крупнейшего в мире производителя смартфонов,
- телевизоров и полупроводников.
 
-Штаб-квартира компании расположена в Сувоне, провинция Кёнгидо,
- Южная Корея.
-  Основной производственный комплекс «Самсунг Диджитал Сити» охватывает площадь более 2,2 км² и является крупнейшим технологическим кампусом в мире.</p>
-                 <img src="headquarter.jfif" width="400">  <img src="samsung.avif" width="400">
+        <section class="kkk" id="about">
+            <h4>О КОМПАНИИ</h4>
+            <div id="bestProducts" class="best-products" Hidden>
+                <h3>Лучшие продукты</h3>
+                <p>Компания Samsung один из самых крупнейших в мире производителей смартфонов,телевизоров,и
+                    полупроводников. </p>
+                <ul>
+                    <li>Galaxy S25 Ultra</li>
+                    <li>Galaxy Z Fold 7</li>
+                    <li>Galaxy Z Flip 7</li>
+                    <li>Galaxy Watch 5 Pro /7</li>
+                    <li>Galaxy Buds 2 Pro</li>
+                </ul>
+            </div>
+            <h3> История и достижения</h3>
+            <p>
+                Samsung Electronics была основана в 1969 году как подразделение конгломерата Samsung Group.
+                Компания начала с производства чёрно-белых телевизоров и за десятилетия превратилась в крупнейшего в
+                мире производителя смартфонов,
+                телевизоров и полупроводников.
+
+                Штаб-квартира компании расположена в Сувоне, провинция Кёнгидо,
+                Южная Корея.
+                Основной производственный комплекс «Самсунг Диджитал Сити» охватывает площадь более 2,2 км² и является
+                крупнейшим технологическим кампусом в мире.</p>
+            <img src="headquarter.jfif" width="400"> <img src="samsung.avif" width="400">
+        </section>
         <hr>
         <table>
-        <tr>
-        <th>нету в продаже</th>
-        </tr>
-    <td>Galaxy S21,S22</td>
+            <tr>
+                <th>нету в продаже</th>
+            </tr>
+            <td>Galaxy S21,S22</td>
         </table>
         <hr>
         <p id="findphn">
@@ -44,45 +61,53 @@ Samsung Electronics была основана в 1969 году как подра
         </p>
         <button id="bestphn">Узнать лучший телефон</button>
         <hr>
-        <p>Обзор на Samsung S25 Ultra</p>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/K4FSeEKnARY?si=k_nomCX9UCWUuTJi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <section class="review" id="about">
+            <p><strong>Обзор на Samsung S25 Ultra</strong></p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/K4FSeEKnARY?si=k_nomCX9UCWUuTJi"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
         <hr>
-            <section class="card" id="about">
+        <section class="card" id="about">
             <h5>интересные факты о Samsung </h5>
             <p>Телефонами Samsung в мире пользуються около 1,03 миллиарда человек.
-                Бренд является ведущим поставщиком на базе Android,занимая одну из лидирующих позиций на мировом рынке.</p>
-                
+                Бренд является ведущим поставщиком на базе Android,занимая одну из лидирующих позиций на мировом рынке.
+            </p>
+
         </section>
         <section class="card" id="about">
-            
-            
+
+
         </section>
         <hr>
         <p>Приобрести продукт Samsung здесь и сейчас</p>
-    <section>  
- <form>
-    <label for="name">Имя</label>
-    <input id="name" type="text" placeholder="Введите имя" required>
-    <br>
-    <label for="email">Email</label>
-    <input id="email" type="email" placeholder="Введите Email" required>
-    <br>
-    <label for="age">Возраст</label>
-    <input id="age" type="age" placeholder="Введите возраст">
-    <br>
-    <label for="message">Сообщение</label> <br>
-    <textarea id="message" type="message" placeholder="Сообщение"></textarea>
-    <button type="submit">Отправить</button>
- </form>
- </section>
+        <section>
+            <form id="contactsForm">
+                <label for="name">Имя</label>
+                <input id="name" type="text" placeholder="Введите имя" required>
+                <br>
+                <label for="email">Email</label>
+                <input id="email" type="email" placeholder="Введите Email" required>
+                <br>
+                <label for="age">Возраст</label>
+                <input id="age" type="age" placeholder="Введите возраст">
+                <br>
+                <label for="message">Сообщение</label> <br>
+                <textarea id="message" type="message" placeholder="Сообщение"></textarea>
+                <button type="submit">Отправить</button>
+            </form>
+        </section>
 
 
-<p id="formMessage"></p>
+        <p id="formMessage"></p>
 
     </main>
     <footer>
         <p>The site was created by Seylgazy Bakdaulet in 2026 </p>
     </footer>
+    <button id="scrollTopBtn" class="scroll-top-btn" type="button" aria-label="Наверх">↑</button>
     <script src="script.js"></script>
-    </body>
+</body>
+
 </html>

@@ -1,15 +1,12 @@
-
-
-
 p {
-    color:rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
     text-shadow: 0 0 10px #6b0096,
-                0 0 30px #420079, 
-                0 0 60px #28004e;
+        0 0 30px #420079,
+        0 0 60px #28004e;
     line-height: 3;
     padding: 10px;
     text-align: center;
-    border-top: 6px solid 
+    border-top: 6px solid
 }
 
 li {
@@ -17,27 +14,36 @@ li {
     line-height: 5;
 }
 
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-     background-color: rgb(0, 1, 37);
+    background-color: rgb(0, 1, 37);
 }
 
+.kkk,
+.card,
+.review {
 
-
-.card{
-    color:rgb(0, 1, 68);
-    background-color: rgb(0, 3, 53);
-    margin: 30px auto;
-    border: 0.67px groove rgb(53, 53, 53);
-    max-width: 1250px;
-    border-radius: 30px;
-    padding: 20px;
+    background: linear-gradient(135deg, #18193a, #0b0c16);
+    border: 2px solid #7a22ff;
+    border-radius: 24px;
+    padding: 50px;
     box-shadow: 0 0 10px #6b0096,
-                0 0 30px #420079, 
-                0 0 60px #28004e;
-                         
+        0 0 30px #420079,
+        0 0 60px #28004e;
+    max-width: 1100px;
+    margin: 30px auto;
+    font-family: 'Segoe UI', Roboto, sans-serif;
+    color: #ffffff;
+    box-sizing: border-box;
 }
+
+
+
+
 th {
     background-color: rgba(255, 2, 2, 0.507);
     border-radius: 5px;
@@ -47,48 +53,60 @@ header {
     border-top: 6px solid var(--red);
     background: linear-gradient(135deg, var(--lightblue), var(--blue));
 }
+
 button {
-  
-   background-color: lightblue;
+
+    background-color: lightblue;
     border-radius: 8px;
     padding: 5px
-};
+}
+
+;
+
 main section {
     transition: 1s;
-};
+}
+
+;
+
 @keyframes fadeIn {
     from {
         opacity: 0;
     }
+
     to {
         opacity: 1;
     }
 }
+
 img {
     display: block;
     margin: 16px auto 22px;
     border-radius: 24px;
-    border: 4px ridge rgba(149, 113, 207, 0.92); 
+    border: 4px ridge rgba(149, 113, 207, 0.92);
     transition: 0.3;
 }
 
 img:hover {
-    transform: scale(1.05);
+    transform: scale(1.06);
 }
+
 section {
     background-color: rgb(0, 3, 53);
     border-radius: 8px;
     margin: 30px auto;
     padding: 20px;
     box-shadow: 0 0 10px #6b0096,
-                0 0 30px #420079, 
-                0 0 60px #28004e;;
+        0 0 30px #420079,
+        0 0 60px #28004e;
+    ;
     transition: 0.3;
 }
 
 section:hover {
     transform: scale(1.05);
 }
+
 main section {
     transition: 0.3;
     animation: fadeIn 1s ease;
@@ -97,149 +115,190 @@ main section {
 main section:hover {
     transform: scale(1.02);
 }
+
 button {
     transition: 0.3;
 }
+
 button:hover {
     transform: scale(1.05);
 }
+
 @keyframes fadeIn {
     from {
-        opacity:0;
+        opacity: 0;
         transform: translateY(15px);
     }
-    to { 
+
+    to {
         opacity: 1;
         transform: translateY(0);
-  }
+    }
 }
+
 @media (max-width: 700px) {
-    header{
+    header {
         padding: 40px 16px;
     }
 
     nav a {
         display: block;
     }
+
     main section {
         padding: 20px;
     }
 
-        button,
-        button[type="reset"] {
-            width: 100%;
-            margin-top: 10px;
-            margin-left: 0;
-        }
+    button,
+    button[type="reset"] {
+        width: 100%;
+        margin-top: 10px;
+        margin-left: 0;
     }
-   
-    h1 {
-         text-align: center;
-       animation: fadeIn 1s ease;
-       max-width: 3000px;
-       font-size: 70px;
-        color: rgb(12, 118, 255);
-     text-shadow: 0 0 15px #5e00da;
-    }
-    h2 {
-         text-align: center;
-        animation: fadeIn 1s ease;
-        max-width: 3000px;
-        font-size: 70px;
-         color: white;
-    text-shadow: 0 0 15px #5e00da;
-    }
-    button {
-        display: block;
-        margin:auto;
-        box-shadow: 0 0 10px #3e0079, 
-                0 0 30px #420079, 
-                0 0 60px #28004e;
-                  
-    }
+}
 
-    h3 {
-  padding: 35px;
-    font-size: 50px;
+h1 {
+    text-align: center;
+    animation: fadeIn 1s ease;
+    max-width: 3000px;
+    font-size: 70px;
     color: rgb(12, 118, 255);
-    text-shadow:  0 0 10px #6b0096,
-                0 0 30px #420079, 
-                0 0 60px #28004e;;
-    
+    text-shadow: 0 0 15px #5e00da;
+}
+
+h2 {
+    text-align: center;
+    animation: fadeIn 1s ease;
+    max-width: 3000px;
+    font-size: 70px;
+    color: white;
+    text-shadow: 0 0 15px #5e00da;
+}
+
+button {
+    display: block;
+    margin: auto;
+    box-shadow: 0 0 10px #3e0079,
+        0 0 30px #420079,
+        0 0 60px #28004e;
+
+}
+
+button:hover {
+    box-shadow: 0 0 10px #6b0096,
+        0 0 30px #420079,
+        0 0 60px #28004e;
+}
+
+button:active {
+    box-shadow: 0 0 10px #28004e,
+        0 0 30px #6b0096,
+        0 0 60px #420079;
+}
+
+button:focus {
+    box-shadow: 0 0 10px #420079,
+        0 0 30px #28004e,
+        0 0 60px #6b0096;
+}
+
+button:visited {
+    box-shadow: 0 0 10px #6b0096,
+        0 0 30px #420079,
+        0 0 60px #28004e;
+}
+
+button:link {
+    box-shadow: 0 0 10px #28004e,
+        0 0 30px #6b0096,
+        0 0 60px #420079;
 }
 
 
-    button:hover {
-   transform: r;
-    }
-    
-    label{ 
-        color: aliceblue;
-    }
-    td {
-        color: aliceblue;
-    }
-    h4 {
-        color: rgb(0, 116, 131);
-        text-shadow: 0 0 10px  #6b0096,
-                     0 0 30px #420079, 
-                     0 0 60px #28004e;
-        font-size: 25px;
-          padding: 10px; 
-           line-height: 2;        
-    }
-   
-    .title {
-        background-image: linear-gradient(rgba(80, 2, 126, 0.185), rgba(0, 0, 0, 0.5)), url(samsung.avif);
-        background-repeat: no-repeat;
-        background-position: center;
-        
-        background-color: whitesmoke;
-        background-size: 10px cover;
-        transition: none;
-        transform: none;
-        min-height: 15vh;
-        z-index: -1;
-        border-radius: 0%;
-    }
-    
-    iframe {
-        border-radius: 8px;
-        box-shadow: 0 0 10px #3e0079, 
-                0 0 30px #420079, 
-                0 0 60px #28004e;
-                display: block;
-                margin: 0 auto;
-    }
+h3 {
+    padding: 35px;
+    font-size: 50px;
+    color: rgb(12, 118, 255);
+    text-shadow: 0 0 10px #6b0096,
+        0 0 30px #420079,
+        0 0 60px #28004e;
+    ;
 
-    hr{
-        border-color: rgb(150, 106, 161);
-        box-shadow: 0 0 10px #3e0079, 
-                0 0 30px #420079, 
-                0 0 60px #28004e;
-    }
-    input {
+}
+
+
+
+label {
+    color: aliceblue;
+}
+
+td {
+    color: aliceblue;
+}
+
+h4 {
+    color: rgb(0, 116, 131);
+    text-shadow: 0 0 10px #6b0096,
+        0 0 30px #420079,
+        0 0 60px #28004e;
+    font-size: 25px;
+    padding: 10px;
+    line-height: 2;
+}
+
+.title {
+    background-image: linear-gradient(rgba(80, 2, 126, 0.185), rgba(0, 0, 0, 0.5)), url(samsung.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+
+    background-color: whitesmoke;
+    background-size: 10px cover;
+    transition: none;
+    transform: none;
+    min-height: 15vh;
+    z-index: -1;
+    border-radius: 0%;
+}
+
+iframe {
+    border-radius: 8px;
+    box-shadow: 0 0 10px #3e0079,
+        0 0 30px #420079,
+        0 0 60px #28004e;
+    display: block;
+    margin: 0 auto;
+}
+
+hr {
+    border-color: rgb(150, 106, 161);
+    box-shadow: 0 0 10px #3e0079,
+        0 0 30px #420079,
+        0 0 60px #28004e;
+}
+
+input {
     justify-content: right;
     height: 40px;
-    color:rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
     background-color: rgb(0, 3, 53);
     margin: 30px auto;
     margin-left: 50px;
     border: 0.67px groove rgb(53, 53, 53);
     max-width: 100%;
     max-height: 80%;
-    
+    text-align: center;
     box-shadow: 0 0 10px #6b0096,
-                0 0 30px #420079, 
-                0 0 60px #28004e; 
+        0 0 30px #420079,
+        0 0 60px #28004e;
     padding: 5px;
     border-radius: 8px;
-    font-size: 15px; 
+    font-size: 15px;
 
-    }
+}
+
 textarea {
-    
-color:rgb(0, 1, 68);
+
+    color: rgb(255, 255, 255);
     background-color: rgb(0, 3, 53);
     margin: 30px auto;
     border: 0.67px groove rgb(53, 53, 53);
@@ -247,25 +306,210 @@ color:rgb(0, 1, 68);
     border-radius: 30px;
     padding: 20px;
     box-shadow: 0 0 10px #6b0096,
-                0 0 30px #420079, 
-                0 0 60px #28004e;
+        0 0 30px #420079,
+        0 0 60px #28004e;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+textarea:focus-visible {
+    outline: none;
+}
+
+textarea:focus-within {
+    outline: none;
 }
 
 h5 {
     font-size: 25px;
-   color:rgb(161, 228, 255);
+    color: rgb(161, 228, 255);
     text-shadow: 0 0 10px #6b0096,
-                0 0 30px #420079, 
-                0 0 60px #28004e;
+        0 0 30px #420079,
+        0 0 60px #28004e;
     line-height: 3;
     padding: 10px;
     text-align: center;
-    border-top: 6px solid  
+    border-top: 6px solid
 }
-label{
-    color:rgb(255, 255, 255);
+
+label {
+    color: rgb(255, 255, 255);
     font-size: 25px;
     text-shadow: 0 0 10px #6b0096,
-    0 0 30px #420079, 
-    0 0 60px #28004e;
+        0 0 30px #420079,
+        0 0 60px #28004e;
+}
+
+label:hover {
+    color: rgb(0, 116, 131);
+    text-shadow: 0 0 10px #6b0096,
+        0 0 30px #420079,
+        0 0 60px #28004e;
+}
+
+label:active {
+    color: rgb(0, 116, 131);
+    text-shadow: 0 0 10px #6b0096,
+        0 0 30px #420079,
+        0 0 60px #28004e;
+}
+
+label:focus {
+    color: rgb(0, 116, 131);
+    text-shadow: 0 0 10px #6b0096,
+        0 0 30px #420079,
+        0 0 60px #28004e;
+}
+
+label:visited {
+    color: rgb(0, 116, 131);
+    text-shadow: 0 0 10px #6b0096,
+        0 0 30px #420079,
+        0 0 60px #28004e;
+}
+
+label:link {
+    color: rgb(0, 116, 131);
+    text-shadow: 0 0 10px #6b0096,
+        0 0 30px #420079,
+        0 0 60px #28004e;
+}
+
+.scroll-top-btn {
+    position: fixed;
+    right: 22px;
+    bottom: 22px;
+    z-index: 20;
+    width: 52px;
+    height: 52px;
+    padding: 0;
+    color: white;
+    font-size: 26px;
+    line-height: 1;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    background: #6b0096;
+    box-shadow: 0 0 10px #6b0096,
+        0 0 30px #420079,
+        0 0 60px #28004e;
+}
+
+.scroll-top-btn:hover {
+    background: #420079;
+    box-shadow: 0 0 10px #420079,
+        0 0 30px #28004e,
+        0 0 60px #6b0096;
+}
+
+.scroll-top-btn:focus {
+    outline: none;
+}
+
+.scroll-top-btn:active {
+    background: #28004e;
+    box-shadow: 0 0 10px #28004e,
+        0 0 30px #6b0096,
+        0 0 60px #420079;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.index {
+    margin-right: auto;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 10px #6b0096,
+        0 0 30px #420079,
+        0 0 60px #28004e;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    border-top: 6px solid
+}
+
+.index:hover {
+    color: rgb(0, 116, 131);
+    text-shadow: 0 0 10px #6b0096,
+        0 0 30px #420079,
+        0 0 60px #28004e;
+}
+
+.index:active {
+    color: rgb(0, 116, 131);
+    text-shadow: 0 0 10px #6b0096,
+        0 0 30px #420079,
+        0 0 60px #28004e;
+}
+
+.index:focus {
+    color: rgb(0, 116, 131);
+    text-shadow: 0 0 10px #6b0096,
+        0 0 30px #420079,
+        0 0 60px #28004e;
+}
+
+.index:visited {
+    color: rgb(0, 116, 131);
+    text-shadow: 0 0 10px #6b0096,
+        0 0 30px #420079,
+        0 0 60px #28004e;
+}
+
+.index:link {
+    color: rgb(0, 116, 131);
+    text-shadow: 0 0 10px #6b0096,
+        0 0 30px #420079,
+        0 0 60px #28004e;
+}
+
+.galaxy {
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 10px #6b0096,
+        0 0 30px #420079,
+        0 0 60px #28004e;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    border-top: 6px solid
+}
+
+.galaxy:hover {
+    color: rgb(0, 116, 131);
+    text-shadow: 0 0 10px #6b0096,
+        0 0 30px #420079,
+        0 0 60px #28004e;
+}
+
+.galaxy:active {
+    color: rgb(12, 118, 255);
+    text-shadow: 0 0 10px #6b0096,
+        0 0 30px #420079,
+        0 0 60px #28004e;
+}
+
+.galaxy:focus {
+    color: rgb(12, 118, 255);
+    text-shadow: 0 0 10px #6b0096,
+        0 0 30px #420079,
+        0 0 60px #28004e;
+}
+
+.galaxy:visited {
+    color: rgb(12, 118, 255);
+    text-shadow: 0 0 10px #6b0096,
+        0 0 30px #420079,
+        0 0 60px #28004e;
+}
+
+.galaxy:link {
+    color: rgb(12, 118, 255);
+    text-shadow: 0 0 10px #6b0096,
+        0 0 30px #420079,
+        0 0 60px #28004e;
 }
