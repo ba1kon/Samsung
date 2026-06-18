@@ -15,6 +15,33 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background-image:
+        radial-gradient(circle at 20% 10%, rgba(122, 34, 255, 0.18), transparent 14%),
+        radial-gradient(circle at 80% 20%, rgba(2, 209, 255, 0.12), transparent 16%);
+    pointer-events: none;
+    z-index: -1;
+}
+
+h1 {
+    background: linear-gradient(90deg, #7a22ff, #3c86ff);
+    -webkit-background-clip: text;
+    color: transparent;
+    text-shadow: 0 0 18px rgba(122, 34, 255, 0.7);
+}
+
+button:hover {
+    transform: translateY(-2px) scale(1.03);
+    box-shadow: 0 15px 30px rgba(122, 34, 255, 0.25);
+}
+
+section:hover {
+    transform: translateY(-6px);
+}
+
 h1 {
 
     color: rgb(255, 255, 255);
@@ -72,4 +99,98 @@ img {
     font-family: 'Segoe UI', Roboto, sans-serif;
     color: #ffffff;
     box-sizing: border-box;
+}
+
+
+.index {
+    margin-right: auto;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 10px #6b0096,
+        0 0 30px #420079,
+        0 0 60px #28004e;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    border-top: 6px solid
+}
+
+.index:hover {
+    color: rgb(4, 45, 168);
+    text-shadow: 0 0 10px #6b0096,
+        0 0 30px #420079,
+        0 0 60px #28004e;
+}
+
+.index:active {
+    color: rgb(58, 25, 206);
+    text-shadow: 0 0 10px #6b0096,
+        0 0 30px #420079,
+        0 0 60px #28004e;
+}
+
+.index:focus {
+    color: rgb(51, 24, 228);
+    text-shadow: 0 0 10px #6b0096,
+        0 0 30px #420079,
+        0 0 60px #28004e;
+}
+
+.index:visited {
+    color: rgb(7, 32, 197);
+    text-shadow: 0 0 10px #6b0096,
+        0 0 30px #420079,
+        0 0 60px #28004e;
+}
+
+.index:link {
+    color: rgb(9, 9, 197);
+    text-shadow: 0 0 10px #6b0096,
+        0 0 30px #420079,
+        0 0 60px #28004e;
+}
+
+.galaxy {
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 10px #6b0096,
+        0 0 30px #420079,
+        0 0 60px #28004e;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    border-top: 6px solid
+}
+
+.galaxy:hover {
+    color: rgb(0, 116, 131);
+    text-shadow: 0 0 10px #6b0096,
+        0 0 30px #420079,
+        0 0 60px #28004e;
+}
+
+.galaxy:active {
+    color: rgb(12, 118, 255);
+    text-shadow: 0 0 10px #6b0096,
+        0 0 30px #420079,
+        0 0 60px #28004e;
+}
+
+.galaxy:focus {
+    color: rgb(12, 118, 255);
+    text-shadow: 0 0 10px #6b0096,
+        0 0 30px #420079,
+        0 0 60px #28004e;
+}
+
+.galaxy:visited {
+    color: rgb(12, 118, 255);
+    text-shadow: 0 0 10px #6b0096,
+        0 0 30px #420079,
+        0 0 60px #28004e;
+}
+
+.galaxy:link {
+    color: rgb(12, 118, 255);
+    text-shadow: 0 0 10px #6b0096,
+        0 0 30px #420079,
+        0 0 60px #28004e;
 }
